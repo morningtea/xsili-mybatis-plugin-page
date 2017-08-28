@@ -1,9 +1,11 @@
 #### Overview
 插件主要实现基于Mybatis分页和查询指定数目数据的方法
 项目采用jar形式，坐标如下：
+``` xml
 <groupId>com.xsili.mybatis.plugin.page</groupId>
 <artifactId>xsili-mybatis-plugin-page</artifactId>
 <version>0.0.1</version>
+```
 
 #### 集成步骤：
 1、在你的项目中引入本插件的maven地址
