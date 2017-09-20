@@ -39,8 +39,8 @@ public class GenMysqlCountUtilTest {
         sb.append("select id from table ");
         sb.append(")b  ");
         sb.append("on a.id = b.id ");
-        sb.append("		WHERE 1=1 ");
-        sb.append("GROUP BY u.id order by u.name desc,ug.id asc ,a.dd desc limit 1,200");
+        sb.append("     WHERE 1=1 ");
+        sb.append("GROUP BY u.id,u.name order by u.name desc,ug.id asc ,a.dd desc limit 1,200");
 
         return sb.toString();
     }
