@@ -68,7 +68,8 @@ public class GenMysqlCountUtil {
 		}
 		String group = null;
 		if (start > sql.lastIndexOf(")")) {
-			group = sql.substring(start, end).replaceFirst("([Gg][Rr][Oo][Uu][Pp])\\s+([Bb][Yy])", "distinct(") + ")";
+//			group = sql.substring(start, end).replaceFirst("([Gg][Rr][Oo][Uu][Pp])\\s+([Bb][Yy])", "distinct(") + ")";
+			group = sql.substring(start, end).replaceFirst("([Gg][Rr][Oo][Uu][Pp])\\s+([Bb][Yy])", "distinct");
 			sql = sql.substring(0, start) + sql.substring(end, sql.length());
 			start = -1;
 			end = -1;
