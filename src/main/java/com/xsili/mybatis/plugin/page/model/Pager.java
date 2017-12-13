@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+@Deprecated
 public class Pager<T> implements Serializable {
 
     private static final long serialVersionUID = 1L;

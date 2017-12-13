@@ -6,6 +6,7 @@ import java.util.List;
 import com.xsili.mybatis.plugin.page.model.Pager;
 import com.xsili.mybatis.plugin.page.model.QueryParam;
 
+@Deprecated
 public class PagerUtil {
     
     public static <T> Pager<T> getPager(List<T> rows, QueryParam queryParam) {
